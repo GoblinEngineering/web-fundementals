@@ -1,0 +1,25 @@
+
+h1 {   
+    color: rgb(59, 43, 43);
+}
+body {
+    text-align: center;
+    background-color: rgb(10, 116, 116);
+}
+nav {
+    background-color: rgb(83, 83, 211);
+    padding: 100px;
+}
+img {
+    width: 800px;
+    border: 50px solid rgb(86, 118, 145);
+}
+footer {
+    padding: 10px;
+}
+.class_1 {
+    font-size: 3em;
+}
+#id_1 {
+    color: brown;
+}
