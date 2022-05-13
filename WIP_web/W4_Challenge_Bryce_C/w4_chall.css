@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #fca6c9;
+}
+img {
+    text-align: left;
+    width: 20%;
+    margin: 50px 0 ;
+}
+ol {
+    font-weight: 800;
+    text-align: left;
+    margin: auto;
+    width: 30%;
+    border: solid black 2px;
+    font-size: .75em;
+}
+li {
+    margin: 10px;
+}
+#quote {
+    border: solid black 2px;
+    display: block;
+    font-family: serif;
+    font-size: 2em;
+    width: 30%;
+    margin: 20px auto;
+}
+.white_text {
+    color: white;
+}
+#first_para {
+    font-family: serif;
+    width: 35%;
+    margin: auto;
+}
+#bold_nel {
+    font-weight: 700;
+}
+footer {
+    font-size: .75em;
+    font-weight: bold;
+    line-height: 0%;
+}
+h1{
+    width: 20%;
+    margin: 1em auto;
+}
+h1:hover {
+    color: black;
+}
