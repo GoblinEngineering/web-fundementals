@@ -13,14 +13,12 @@ ol {
     text-align: left;
     margin: auto;
     width: 30%;
-    border: solid black 2px;
     font-size: .75em;
 }
 li {
     margin: 10px;
 }
 #quote {
-    border: solid black 2px;
     display: block;
     font-family: serif;
     font-size: 2em;
