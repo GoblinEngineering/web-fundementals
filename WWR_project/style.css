@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+
 a {
     text-decoration:none;
 }
@@ -8,6 +11,7 @@ div {
     margin: 0 auto;
 }
 nav a{
+    padding: 5px;
     text-align: center;
     background-color: #fce172;
     color: #134266;
@@ -33,14 +37,23 @@ main section{
     color: #134266;
 }
 body{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: "yantramanav", helvetica, sans-serif;
     background-color: white;
     color: #134266;
 }
 header{
+    font-family: "Gloria Hallelujah";
     background-color: #fce172;
     color: #134266;
 }
 .book, .join{
+    border-radius: 5px;
+    margin-top: 50px;
+    padding:15px 30px;
+    font-size: 18px;
     background-color: #fce172;
     color: #134266;
     text-decoration: underline;
@@ -51,6 +64,8 @@ header{
     text-decoration: underline;
 }
 .msg{
+    padding: 35px;
+    line-height: 1.5em;
     background-color: #fce172;
     color: #134266;
 }
@@ -59,14 +74,22 @@ header{
     color: #134266;
 }
 .msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
+    font-family: "yantramanav", helvetica, sans-serif;
     background-color: #fce172;
     color: #134266;
 }
 footer{
+    margin-top: 200px;
+    padding: 25px 50px;
     background-color: #fce172;
     color: #134266;
 }
 .home_title{
+    margin: 10px;
+    font-size: 2em;
+    font-family: "yantramanav", helvetica, sans-serif;
     background-color: #fce172;
     color: #134266;
 }
@@ -91,8 +114,27 @@ footer a:hover{
     width: 80px;
 }
 .icon{
+    padding: 10px;
     width: 80px;
 }
 #hero-img{
     width:  100%;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px ;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px;
+}
+.card-img{
+    border: 10px solid #134266;
+}
+main section img{
+    box-sizing: border-box;
 }
