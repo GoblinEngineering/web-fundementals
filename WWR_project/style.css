@@ -200,7 +200,73 @@ nav {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+/* next CSS page */
+.home-grid_2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+#header_boxes{
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+.header_boxes_parent{
+    margin-top: 100px;
+    color: #134266;
+    background-color: #fce172;
 
+}
+#header_box_1{
+    margin: 0 0 10;
+    grid-column: 1/2;
+    color: #134266;
+    text-align: center;
+    width: 100%;
+}
+#header_box_2{
+    margin: 0 0 10;
+    grid-column: 2/5;
+    
+    text-align: center;
+    width: 100%;
+}
+.pic_1{
+    grid-column: 1/2;
+}
+.pic_2{
+    grid-column: 2/3;
+}
+.pic_3{
+    grid-column: 3/4;
+}
+.pic_4{
+    grid-column: 4/5;
+}
+.list_class{
+    color: #134266;
+    background-color: #fce172;
+    padding: 0px 30px;
+    border: #134266 2px solid;
+}
+.bullet_header{
+    color: #fce172;
+    background-color: #134266;
+    margin-bottom: -52px;
+    text-align: center;
+}
+.card-img_2{
+    border: 10px solid #134266;
+    width: 10em;
+    height: auto;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+.card-img_2:hover{
+    opacity: .6;
+    transform: scale(1.3);
+}
 
 
 
