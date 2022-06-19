@@ -219,6 +219,7 @@ nav {
 
 }
 #header_box_1{
+    border: #134266 2px solid;
     margin: 0 0 10;
     grid-column: 1/2;
     color: #134266;
@@ -228,7 +229,7 @@ nav {
 #header_box_2{
     margin: 0 0 10;
     grid-column: 2/5;
-    
+    border: #134266 2px solid;
     text-align: center;
     width: 100%;
 }
