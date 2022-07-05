@@ -1,0 +1,140 @@
+body {
+  background-color: darkgray;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 22px;
+  text-align: center;
+}
+nav a{
+    padding: 5px;
+    text-align: center;
+    background-color: #131314;
+    color: #5BA8E0;
+    text-decoration: underline;
+
+}
+header{
+    display: grid ;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px;
+    background-color: #131314;
+    font-size: 40px;
+}
+.logo_nav{
+    max-width: 100px;
+    max-height: 100px;
+}
+nav{
+    justify-content:space-around ;
+    align-items: center;
+    display:flex;
+    background-color: #131314;
+
+}
+#hero_box{
+    box-sizing: border-box;
+    max-width: 1800px;
+    border: solid #131314 5px;
+    grid-column: 1/2;
+    
+}
+#hero_div{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+img{
+    width: 100%;
+}
+#index_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.infocard{
+    max-width: 100%;
+    color: #5BA8E0;
+    background-color: #131314;
+}
+.infocard p{
+    color: white;
+}
+#infocards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+#videos{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px ;
+    row-gap: 30px;
+    column-gap: 10px;
+    background-color: #131314;
+    padding: 10px;
+}
+video{
+    width: 100%;
+}
+footer div{
+    justify-content:space-around ;
+    align-items: center;
+    display:flex;
+    background-color: #131314;
+    max-height: 200px;
+    color: white;
+}
+footer div a{
+    max-height: 100%;
+    box-sizing: border-box;
+
+}
+footer div a img{
+    margin-top: 10px;
+    max-height: 75px;
+}
+.player_cards{
+    display: grid;
+    grid-template-rows: repeat(200px, 8);
+    gap: 20px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.player_card{
+    max-height: 350px;
+    box-sizing: border-box;
+    background-color: #131314;
+    color: white;
+    display: grid;
+    grid-template-columns: .5fr 2fr .25fr;
+}
+.player_card img{
+    max-width: 70%;
+    padding: 10px;
+}
+#banner{
+    max-height: 150px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding-top: 20px;
+}
+#patreon_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+#patreon_grid div{
+    background-color: white;
+}
+#patreon_grid div h2{
+    background-color: #131314;
+    color: #5BA8E0;
+}
+
+
