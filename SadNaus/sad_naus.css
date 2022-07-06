@@ -97,6 +97,7 @@ footer div a img{
     margin-top: 10px;
     max-height: 75px;
 }
+  /* Player Cards */ 
 .player_cards{
     display: grid;
     grid-template-rows: repeat(200px, 8);
@@ -116,6 +117,51 @@ footer div a img{
     max-width: 70%;
     padding: 10px;
 }
+#extra_padding_player_cards{
+    padding-top: 20px;
+}
+/* stolen code for W12 */
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #131314;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #5BA8E0;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: white;
+    color: #131314;
+
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: white;
+    color: #5BA8E0;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
+
+  /* patreon */
 #banner{
     max-height: 150px;
     display: grid;
@@ -137,4 +183,5 @@ footer div a img{
     color: #5BA8E0;
 }
 
+/* script */
 
