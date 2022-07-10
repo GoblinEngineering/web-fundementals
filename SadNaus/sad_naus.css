@@ -126,6 +126,7 @@ footer div a img{
 .tab {
     overflow: hidden;
     background-color: #131314;
+    
   }
   
   /* Style the buttons inside the tab */
@@ -137,8 +138,9 @@ footer div a img{
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 22px;
     color: #5BA8E0;
+    
   }
   
   /* Change background color of buttons on hover */
