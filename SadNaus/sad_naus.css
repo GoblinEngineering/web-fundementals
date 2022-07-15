@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
 body {
+  font-family: "libre baskerville";
   background-color: darkgray;
   max-width: 1800px;
   margin: 0 auto;
@@ -12,7 +17,7 @@ nav a{
     background-color: #131314;
     color: #5BA8E0;
     text-decoration: underline;
-
+    font-family: "cabin sketch";
 }
 header{
     display: grid ;
@@ -57,6 +62,7 @@ img{
 .infocard{
     max-width: 100%;
     color: #5BA8E0;
+    font-family: "cabin sketch";
     background-color: #131314;
 }
 .infocard p{
@@ -140,6 +146,7 @@ footer div a img{
     transition: 0.3s;
     font-size: 22px;
     color: #5BA8E0;
+    font-family: "cabin sketch";
     
   }
   
@@ -154,6 +161,7 @@ footer div a img{
   .tab button.active {
     background-color: white;
     color: #5BA8E0;
+    font-family: "cabin sketch";
   }
   
   /* Style the tab content */
@@ -165,10 +173,13 @@ footer div a img{
 
   /* patreon */
 #banner{
-    max-height: 150px;
+    max-height: 100px;
     display: grid;
-    grid-template-columns: 150px 1fr;
-    padding-top: 20px;
+    grid-template-columns: 100px 1fr;
+    margin-top: 20px;
+    background-color: #131314;
+    color: white;
+    padding: 10px;
 }
 #patreon_grid{
     display: grid;
@@ -178,11 +189,28 @@ footer div a img{
     padding: 20px;
 }
 #patreon_grid div{
-    background-color: white;
+    background-color: #131314;
+    border: black solid 5px;
+    color: white;
+    ;
 }
 #patreon_grid div h2{
     background-color: #131314;
     color: #5BA8E0;
+    font-family: "cabin sketch";
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#patreon_grid a{
+    background-color: white;
+    color: #131314;
+    padding: 10px;
+}
+#patreon_grid h4{
+    color: #5BA8E0;
+    font-family: "cabin sketch";
+    font-size: 30px;
 }
 
 /* script */
