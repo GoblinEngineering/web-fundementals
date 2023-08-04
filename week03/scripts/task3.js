@@ -82,7 +82,7 @@ function RandInfoType(){
 async function getStarWarsInfo(PersonID){
 
     //let Info = await fetch('https://swapi.dev/api/people/' + RandPersonID() + '/');
-    let Info = await fetch('./data.json');
+    let Info = await fetch('https://goblinengineering.github.io/web-fundementals/week03/scripts/data.json');
     if (Info.ok){
         data = await Info.json()
         //
