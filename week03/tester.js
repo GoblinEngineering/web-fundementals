@@ -24,10 +24,10 @@ function drawChart() {
 
     var data = google.visualization.arrayToDataTable([
     ['tournament name', 'burnt offering', 'ad naus',"sun"],
-    [myJsonInfo["name"],  5,      50,9],
-    ['punt city',  7,      5,7],
-    ['cash 2',  6,       3,6],
-    ['deviant esquire',  2,      15,4]
+    [myJsonInfo["tournamentInfo"]["tournyNamesList"][0],  .5,      .25,.9],
+    ['punt city',  .7,      .5,.7],
+    ['cash 2',  .6,       .3,.6],
+    ['deviant esquire',  .2,      .15,.4]
     ]);
 
     var options = {
