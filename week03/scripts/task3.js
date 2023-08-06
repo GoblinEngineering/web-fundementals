@@ -108,3 +108,6 @@ console.log(RandInfoType())
 document.getElementById("divideNumbers").value = "CLICK ME PLEASE"
 let buttonElementdiv = document.getElementById("divideNumbers")
 buttonElementdiv.addEventListener("click", getStarWarsInfo)
+
+
+
