@@ -132,7 +132,9 @@ function drawChart() {
     var data = google.visualization.arrayToDataTable(completedArray);
 
     var options = {
-    title: 'Card Playrate percent%',
+    title: 'Card Playrate Over Time',
+    hAxis: {title: 'Tournaments Ordered By Date', titleTextStyle: {color: 'red'}},
+    vAxis: {title: '%Percent Playrate Of Card', titleTextStyle: {color: 'black'}, maxValue:'5', minValue:'1'},
     curveType: '',
     legend: { position: 'bottom' }
     };
