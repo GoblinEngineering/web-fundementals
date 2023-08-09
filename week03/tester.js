@@ -1,7 +1,7 @@
 
 async function getData() {
 
-    let Info = await fetch('https://goblinengineering.github.io/web-fundementals/week03/scripts/data.json');
+    let Info = await fetch('https://goblinengineering.github.io/web-fundementals/week03/scripts/Playrate.json');
     if (Info.ok){
     myJsonInfo = await Info.json()
     console.log(myJsonInfo)
@@ -125,7 +125,7 @@ function drawChart() {
     var card5 = document.getElementById("CardInput5").value
     //card1 = "naus"
     if (card1 === "" || dataValidator(card1) === false){
-        card1 = "naus"
+        card1 = "Wishclaw Talisman"
     }
 
     var completedArray = CreateGraphArray(card1, card2, card3, card4, card5)
