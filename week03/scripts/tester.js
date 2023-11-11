@@ -11,9 +11,6 @@ async function getData() {
     //console.log("entering tester area")
     //CreateGraphArray("naus")
 
-    
-
-
 }
 }
 
@@ -142,15 +139,36 @@ function drawChart() {
     var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
 
     chart.draw(data, options);
+
+    // added code
+    localStorage.setItem("card1", document.getElementById("CardInput1").value)
+    localStorage.setItem("card2", document.getElementById("CardInput2").value)
+    localStorage.setItem("card3", document.getElementById("CardInput3").value)
+    localStorage.setItem("card4", document.getElementById("CardInput4").value)
+    localStorage.setItem("card5", document.getElementById("CardInput5").value)
+    // added code
 }
 
+//ADDED
+document.getElementById("CardInput1").value = localStorage.getItem("card1")
+document.getElementById("CardInput2").value = localStorage.getItem("card2")
+document.getElementById("CardInput3").value = localStorage.getItem("card3")
+document.getElementById("CardInput4").value = localStorage.getItem("card4")
+document.getElementById("CardInput5").value = localStorage.getItem("card5")
+console.log(localStorage.getItem("card1"))
+//ADDED
 
 
-google.load('visualization', '1', {'packages':['corechart']});
+ google.load('visualization', '1', {'packages':['corechart']});
 
-
-getData()
-
+ getData()
 
 let buttonElementdiv = document.getElementById("RefreshButton")
 buttonElementdiv.addEventListener("click", getData)
+
+// End Orignial code
+
+
+
+
+
